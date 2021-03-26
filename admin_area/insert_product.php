@@ -26,8 +26,6 @@ include("../functions/functions.php");
                         <select name="product_cat" required>
                             <option>Select a Category</option>
                             <?php 
-                            //  getData("categories"); 
-
                             $get_cat = "select * from categories";
                             $run_cat = mysqli_query($con, $get_cat);
 
@@ -49,8 +47,6 @@ include("../functions/functions.php");
                         <select name="product_brand" required>
                             <option>Select a Brand</option>
                             <?php 
-                            // getData("brands"); 
-
                             $get_brands = "select * from brands";
                             $run_brands = mysqli_query($con, $get_brands);
 
@@ -109,23 +105,21 @@ include("../functions/functions.php");
         $product_image = $_FILES['product_image']['name'];
         $product_image_tmp = $_FILES['product_image']['tmp_name'];
 
-        move_uploaded_file($product_image_tmp, "product_images/$product_image");
 
+        // переместить файл в другое место
+        move_uploaded_file($product_image_tmp, "product_images/$product_image");
+        // строка выражение
          echo $insert_product = "insert into products (product_cat, product_brand, product_title, product_price, product_desc, product_image, product_keywords) 
                              values ('$product_cat', '$product_brand', '$product_title', '$product_price', '$product_desc', '$product_image', '$product_keywords')";
-
+         // вставить данные в таблицу
          $insert_pro = mysqli_query($con, $insert_product);
-
+        // если успех, то показать сообщение
          if($insert_pro){
 
              echo "<script>alert('Product Has  been inserted!')</script>";
              echo "<script>window.open('insert_product.php','_self')</script>";
 
          }
-
-
     }
-
-
 
 ?>

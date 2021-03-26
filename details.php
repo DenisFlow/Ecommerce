@@ -52,14 +52,6 @@ include("functions/functions.php");
                         </div>
                         <ul id="cats">
                             <?php getData("categories"); ?>
-                            <!-- <li><a href="#">Одежда</a></li>
-                            <li><a href="#">Текстиль</a></li>
-                            <li><a href="#">Трикотаж</a></li>
-                            <li><a href="#">Big изделия</a></li>
-                            <li><a href="#">Аксессуары</a></li>
-                            <li><a href="#">Косметика</a></li>
-                            <li><a href="#">Игрушки</a></li>
-                            <li><a href="#">Коляски</a></li> -->
                         </ul>
 
                         <div id="sidebar_title">
@@ -67,13 +59,7 @@ include("functions/functions.php");
                         </div>
                         <ul id="cats">
                             <?php getData("brands"); ?>
-                            <!-- <li><a href="#">Molo</a></li>
-                            <li><a href="#">ZARA</a></li>
-                            <li><a href="#">MANGO</a></li>
-                            <li><a href="#">H&M</a></li>
-                            <li><a href="#">GAP</a></li>
-                            <li><a href="#">BLUKIDS</a></li>-->
-                        </ul> 
+                        </ul>
 
                     </div>
 

@@ -54,14 +54,6 @@ include("functions/functions.php");
                         </div>
                         <ul id="cats">
                             <?php getData("categories"); ?>
-                            <!-- <li><a href="#">Одежда</a></li>
-                            <li><a href="#">Текстиль</a></li>
-                            <li><a href="#">Трикотаж</a></li>
-                            <li><a href="#">Big изделия</a></li>
-                            <li><a href="#">Аксессуары</a></li>
-                            <li><a href="#">Косметика</a></li>
-                            <li><a href="#">Игрушки</a></li>
-                            <li><a href="#">Коляски</a></li> -->
                         </ul>
 
                         <div id="sidebar_title">
@@ -70,13 +62,7 @@ include("functions/functions.php");
                         <ul id="cats">
                             <?php 
                             getData("brands"); ?>
-                            <!-- <li><a href="#">Molo</a></li>
-                            <li><a href="#">ZARA</a></li>
-                            <li><a href="#">MANGO</a></li>
-                            <li><a href="#">H&M</a></li>
-                            <li><a href="#">GAP</a></li>
-                            <li><a href="#">BLUKIDS</a></li>-->
-                        </ul> 
+                        </ul>
 
                     </div>
 
@@ -93,9 +79,71 @@ include("functions/functions.php");
 <!--                        --><?php //echo $ip = getIp() ;?>
 
                         <div id="products_box">
-                            <?php getPro();?> 
-                            <?php getCatPro();?> 
-                            <?php getBrandPro();?> 
+
+                            <form action="" method="post" enctype="multipart/form-data">
+
+                                <table align="center" width="700" bgcolor="#87ceeb">
+
+<!--                                    <tr align="center">-->
+<!--                                        <td colspan="5"><h2>Update your cart or checkout</h2></td>-->
+<!--                                    </tr>-->
+
+                                    <tr align="center">
+                                        <th>Remove</th>
+                                        <th>Products(S)</th>
+                                        <th>Quantity</th>
+                                        <th>Total Price</th>
+                                    </tr>
+
+                                    <?php
+                                        $total = 0;
+                                        global $con;
+                                        $ip = getIp();
+                                        $sel_price = "select * from cart where ip_add='$ip'";
+
+                                        $run_price = mysqli_query($con, $sel_price);
+
+                                        while ($p_price = mysqli_fetch_array($run_price)) {
+                                            $pro_id = $p_price['p_id'];
+
+                                            $pro_price = "select * from products where product_id='$pro_id'";
+
+                                            $run_pro_price = mysqli_query($con, $pro_price);
+
+                                            while ($pp_price = mysqli_fetch_array($run_pro_price)) {
+                                                $product_price = array($pp_price['product_price']);
+
+                                                $product_title = $pp_price['product_title'];
+
+                                                $product_image = $pp_price['product_image'];
+
+                                                $single_price = $pp_price['product_price'];
+
+                                                $values = array_sum($product_price);
+
+                                                $total += $values;
+
+                                    ?>
+
+                                    <tr align="center">
+                                        <td><input type="checkbox" name="remove[]"/> </td>
+                                        <td><?php echo $product_title; ?><br>
+                                        <img src="admin_area/product_images/<?php echo $product_image;?>" width="60" height="60"/>
+                                        </td>
+                                        <td><input type="text" size="4" name="qty"/></td>
+                                        <td><?php echo "&#x20bd; " . $single_price; ?></td>
+                                    </tr>
+
+                                    <?php } } ?>
+
+                                    <tr>
+                                        <td colspan="3"><b>Sub Total:</b></td>
+                                        <td colspan="3"><?php echo "&#x20bd; " . $total ?></td>
+                                    </tr>
+
+
+                                </table>
+                            </form>
                         </div>
                     
                     </div>
