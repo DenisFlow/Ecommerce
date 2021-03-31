@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* код перегружает все стандартные стили  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background-color:skyblue;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main_wrapper{
+    width: 1000px;
+    height:auto;
+    margin: auto;
+    background: pink;
+}
+
+.header_wrapper{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+#logo{float: left;}
+
+#banner{float: right;}
+
+.menubar{
+    width: 1000px;
+    height: 50px;
+    background: #E9E9E9;
+    color: black;
+}
+
+#menu{
+    padding: 0%;
+    margin: 0%;
+    line-height: 40px;
+    float: left;
+}
+
+#menu li{
+    list-style: none;
+    display: inline;
+}
+
+#menu a{
+    text-decoration: none;
+    /* color: white; */
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu a:hover{
+    color:pink;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#form{
+    float: right;
+    padding-right: 8px;
+    line-height: 50px;
+
+}
+/*класс*/
+.content_wrapper{
+    width: 1000px;
+    margin: auto;
+    background: pink;
+}
+
+#content_area{
+    width: 800px;
+    float:left;
+    background: pink;
+}
+
+#sidebar{
+    width:200px;
+    background: black;
+    float:right;
+}
+
+#sidebar_title{
+    background: white;
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+#cats{
+    text-align: center;
+}
+
+#cats li{
+    list-style: none;
+    margin: 5px;
+    
+
+}
+
+#cats a{
+    color: orange;
+    text-align: left;
+    font-size: 17px;
+    padding: 8px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+
+}
+
+#cats a:hover{
+    color:white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#products_box{
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#single_product{
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+#single_product img{
+    border: 2px solid black;
+}
+
+#shoping_cart{
+    width: 800px;
+    height: 44px;
+    background: black;
+    color: white;
+
+}
+
+#footer{
+    width: 1000px;
+    /*height: 100px;*/
+    background: gray;
+    clear:both;
+}

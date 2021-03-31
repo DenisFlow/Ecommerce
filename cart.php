@@ -74,8 +74,32 @@ include("functions/functions.php");
                         <?php cart(); ?>
                         <!--            Создам ссылку на карзину и сопутствующую информацию по корзине            -->
                         <div id="shoping_cart">
-                            <span style="float:right; font-size:18px; padding:5px; line-height:40px">
-                                Welcome Guest! <b style="color:yellow">Shoping Cart -  </b> Total items:  <?php total_items(); ?> Total Price: <?php total_price() ?> <a href="cart.php" style="color:yellow" >Go to Cart</a>
+                            <span style="float:right; font-size:16px; padding:5px; line-height:40px">
+
+                                <?php
+
+                                if (isset($_SESSION['customer_email'])) {
+                                    echo "<b>Welcome: </b>" . $_SESSION['customer_email'] . "<b style='color: yellow'>Your</b>";
+                                } else {
+                                    echo "<b>Welcome Guest:</b>";
+                                }
+
+                                ?>
+
+
+                                <b style="color:yellow">Shoping Cart -  </b> Total items:  <?php total_items(); ?> Total Price: <?php total_price() ?> <a href="index.php" style="color:yellow" >Back to Shop</a>
+
+                                <?php
+
+                                if (!isset($_SESSION['customer_email'])) {
+
+                                    echo "<a href='checkout.php' style='color: orange;'>Login</a>";
+                                } else {
+                                    echo "<a href='logout.php' style='color: orange;'>Logout</a>";
+                                }
+
+                                ?>
+
                             </span>
                         </div>
 
@@ -130,7 +154,7 @@ include("functions/functions.php");
 
                                     <tr align="center">
                                         <td><input type="checkbox" name="remove[]" value="<?php echo $pro_id;?>"/> </td>
-                                        <td><?php echo $product_title; ?><br>
+                                        <td><?php echo $product_title; ?>
                                         <img src="admin_area/product_images/<?php echo $product_image;?>" width="60" height="60"/>
                                         </td>
                                         <td><input type="text" size="4" name="qty" value="<?php echo $_SESSION['qty'];?>"/></td>
@@ -142,7 +166,11 @@ include("functions/functions.php");
 
                                                 $_SESSION['qty'] = $qty;
 
-                                                $total = $total * $qty;
+                                                if (is_numeric($total) && is_numeric($qty)) {
+
+                                                    $total = $total * $qty;
+
+                                                }
 
                                             }
                                         ?>
