@@ -64,8 +64,9 @@ include("functions/functions.php");
 
 
         <div id="content_area">
+
             <?php cart(); ?>
-            <!--            Создам ссылку на карзину и сопутствующую информацию по корзине            -->
+
             <div id="shoping_cart">
                             <span style="float:right; font-size:16px; padding:5px; line-height:40px">
 
@@ -92,7 +93,6 @@ include("functions/functions.php");
                             </span>
             </div>
 
-            <!--                        --><?php //echo $ip = getIp() ;?>
 
             <div id="products_box">
 

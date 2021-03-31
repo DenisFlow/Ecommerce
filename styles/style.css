@@ -139,15 +139,13 @@ table {
 
 #cats li{
     list-style: none;
-    display: block;
-    margin: 15px;
-    
+    margin: 5px;
+
 
 }
 
 #cats a{
     color: white;
-    text-align: center;
     font-size: 20px;
     padding: 8px;
     text-align: center;
@@ -190,7 +188,7 @@ table {
 
 #footer{
     width: 1000px;
-    /*height: 100px;*/
+    height: 100px;
     background: gray;
     clear:both;
 }

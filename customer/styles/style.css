@@ -28,7 +28,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
     background-color:skyblue;
 
 }
@@ -134,7 +133,7 @@ table {
 }
 
 #cats{
-    text-align: center;
+    text-align: left;
 }
 
 #cats li{
@@ -146,10 +145,9 @@ table {
 
 #cats a{
     color: orange;
-    text-align: left;
     font-size: 17px;
     padding: 8px;
-    text-align: center;
+    text-align: left;
     margin: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
@@ -181,7 +179,7 @@ table {
 
 #shoping_cart{
     width: 800px;
-    height: 44px;
+    height: 50px;
     background: black;
     color: white;
 
@@ -189,7 +187,7 @@ table {
 
 #footer{
     width: 1000px;
-    /*height: 100px;*/
+    height: 100px;
     background: gray;
     clear:both;
 }
