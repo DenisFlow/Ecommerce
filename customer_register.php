@@ -179,7 +179,13 @@ include("includes/db.php")
         // ВЕРНУТЬ В РАБОТУ
         // Warning: move_uploaded_file() expects parameter 1 to be string, array given in C:\xampp\htdocs\ecommerce\customer_register.php on line 178
 
-        move_uploaded_file($c_image_tmp, "customer/customer_images/$c_image");
+        foreach ($_FILES as $file)
+        {
+            if (move_uploaded_file($file['tmp_name'], 'customer/customer_images/' . $file['name']))
+            {
+
+            }
+        }
 
         $insert_c = "insert into customers 
         (customer_ip, customer_name, customer_email, customer_pass, customer_country, 

@@ -101,7 +101,7 @@ table {
 #form{
     float: right;
     padding-right: 8px;
-    line-height: 50px;
+    line-height: 40px;
 
 }
 /*класс*/
@@ -159,6 +159,8 @@ table {
     font-weight: bolder;
     text-decoration: underline;
 }
+
+#cats img{border: 2px solid white; padding: 4px}
 
 #products_box{
     width: 780px;

@@ -114,8 +114,6 @@ include("functions/functions.php");
                             </span>
                         </div>
 
-<!--                        --><?php //echo $ip = getIp() ;?>
-
                         <div id="products_box">
                             <?php getPro();?> 
                             <?php getCatPro();?> 
