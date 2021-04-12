@@ -2,6 +2,10 @@
 <?php
 include("../functions/functions.php");
 
+if (!isset($_SESSION['user_email'])){
+    echo "<script>window.open('login.php?not_admin=You are not an Admin!', '_self')</script>";
+} else {
+
 ?>
 <html>
     <head>
@@ -10,7 +14,7 @@ include("../functions/functions.php");
 
     <body bgcolor="skyblue">
         <form action="insert_product.php" method="post"  enctype="multipart/form-data">
-            <table align="center" width="700" border="2" bgcolor="pink">
+            <table align="center" width="795" border="2" bgcolor=#0D77B1>
                 <tr align="center">
                     <td colspan="7"><h2>Insert New Post Here</h2></td>
                 </tr>
@@ -74,7 +78,7 @@ include("../functions/functions.php");
 
                 <tr>
                     <td align="right"><b>Product Description:</b></td>
-                    <td><textarea name="product_desc" id="" cols="50" rows="5" required></textarea></td>
+                    <td><textarea name="product_desc" id="" cols="70" rows="25" required></textarea></td>
                 </tr>
 
                 <tr>
@@ -85,7 +89,9 @@ include("../functions/functions.php");
                 <tr align="center">
                     <td colspan="7"><input type="submit" name="insert_post" value="Insert Now" /></td>
                 </tr>
+
             </table>
+            
         </form>
     </body>    
 
@@ -117,9 +123,11 @@ include("../functions/functions.php");
          if($insert_pro){
 
              echo "<script>alert('Product Has  been inserted!')</script>";
-             echo "<script>window.open('insert_product.php','_self')</script>";
+             echo "<script>window.open('index.php?insert_product','_self')</script>";
 
          }
     }
 
 ?>
+
+<?php } ?>

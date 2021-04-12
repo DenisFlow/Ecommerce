@@ -154,23 +154,23 @@ include("functions/functions.php");
 
                                     <tr align="center">
                                         <td><input type="checkbox" name="remove[]" value="<?php echo $pro_id;?>"/> </td>
-                                        <td><?php echo $product_title; ?>
+                                       <td><b><?php echo $product_title; ?></b><br>
                                         <img src="admin_area/product_images/<?php echo $product_image;?>" width="60" height="60"/>
                                         </td>
                                         <td><input type="text" size="4" name="qty" value="<?php echo $_SESSION['qty'];?>"/></td>
                                         <?php
                                             if (isset($_POST['update_cart'])){
                                                 $qty = $_POST['qty'];
-                                                $update_qty = "update cart set qty='$qty'";
+                                                $update_qty = "update cart set qty='$qty' where p_id = '$pro_id'";
                                                 $run_qty = mysqli_query($con, $update_qty);
 
                                                 $_SESSION['qty'] = $qty;
 
-                                                if (is_numeric($total) && is_numeric($qty)) {
+//                                                if (is_numeric($total) && is_numeric($qty)) {
 
                                                     $total = $total * $qty;
 
-                                                }
+//                                                }
 
                                             }
                                         ?>
@@ -193,19 +193,29 @@ include("functions/functions.php");
                             </form>
 
                             <?php
-                            function updateCart() {
+
+                            updatecart();
+
+                            function updatecart() {
+
+
+
 
                                 global $con;
 
                                 $ip = getIp();
-
                                 if (isset($_POST['update_cart'])) {
-                                    foreach ($_POST['remove'] as $remove_id) {
-                                        $delete_product = "delete from cart where p_id='$remove_id' AND ip_add='$ip'";
-                                        $run_delete = mysqli_query($con, $delete_product);
 
-                                        if ($run_delete) {
-                                            echo "<script>window.open('cart.php', '_self')</script>";
+                                    if (array_key_exists('remove', $_POST)) {
+
+                                        foreach ($_POST['remove'] as $remove_id) {
+
+                                            $delete_product = "delete from cart where p_id='$remove_id' AND ip_add='$ip'";
+                                            $run_delete = mysqli_query($con, $delete_product);
+
+                                            if ($run_delete) {
+                                                echo "<script>window.open('cart.php', '_self')</script>";
+                                            }
                                         }
                                     }
                                 }
@@ -213,7 +223,7 @@ include("functions/functions.php");
                                     echo "<script>window.open('index.php', '_self')</script>";
                                 }
 
-                                echo @$up_cart = updateCart();
+                                echo @$up_cart = updatecart();
 
                             }
 

@@ -148,6 +148,9 @@ include("functions/functions.php");
                     include("delete_account.php");
                 }
 
+                if (isset($_GET['my_orders'])){
+                    include("my_orders.php");
+                }
                 ?>
 
 
