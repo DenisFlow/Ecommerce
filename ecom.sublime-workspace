@@ -1,0 +1,595 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wina",
+				"WinActivate()"
+			],
+			[
+				"El",
+				"Else"
+			],
+			[
+				"StringL",
+				"StringLen()"
+			],
+			[
+				"winw",
+				"WinWaitActive()"
+			],
+			[
+				"2str_re",
+				"2STR_REGEXPARRAYGLOBALMATCH"
+			],
+			[
+				"win",
+				"WinActive()"
+			],
+			[
+				"1r",
+				"1regexptitle"
+			],
+			[
+				"_ctrl",
+				"_CTRL_PushSign()"
+			],
+			[
+				"1reg",
+				"1regexptitle"
+			],
+			[
+				"1t",
+				"1regexptitle"
+			],
+			[
+				"clip",
+				"ClipPut()"
+			],
+			[
+				"Stringr",
+				"StringRegExpReplace()"
+			],
+			[
+				"Else",
+				"ElseIf"
+			],
+			[
+				"proce",
+				"ProcessExists()"
+			],
+			[
+				"_arrayd",
+				"_ArrayDisplay()"
+			],
+			[
+				"_arrad",
+				"_ArrayDisplay()"
+			],
+			[
+				"isa",
+				"IsArray()"
+			],
+			[
+				"strinre",
+				"StringRegExpReplace()"
+			],
+			[
+				"Exit",
+				"ExitLoop"
+			],
+			[
+				"Arrad",
+				"_ArrayDisplay()"
+			],
+			[
+				"num",
+				"NUMPAD1 Send Key List"
+			],
+			[
+				"home",
+				"HOME Send Key List"
+			],
+			[
+				"_ctrls",
+				"_CTRL_SHIFT_PushSign()"
+			],
+			[
+				"for",
+				"ForInNext"
+			],
+			[
+				"Stringreg",
+				"StringRegExpReplace()"
+			],
+			[
+				"cr",
+				"CRLF\t@CRLF"
+			],
+			[
+				"c",
+				"CRLF\t@CRLF"
+			],
+			[
+				"Stringre",
+				"StringRegExpReplace()"
+			],
+			[
+				"CONS",
+				"ConsoleWrite()"
+			],
+			[
+				"is",
+				"IsArray()"
+			],
+			[
+				"Not",
+				"Not"
+			],
+			[
+				"_arrd",
+				"_ArrayDisplay()"
+			],
+			[
+				"Cons",
+				"ConsoleWrite()"
+			],
+			[
+				"Win",
+				"WinActive()"
+			],
+			[
+				"Tab",
+				"TAB Send Key List"
+			],
+			[
+				"cons",
+				"ConsoleWrite()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 55 files for \"Russia\" (regex)\n\nC:\\xampp\\htdocs\\ecommerce\\customer_register.php:\n  109                                          <select name=\"c_country\">\n  110                                              <option>Select a Country</option>\n  111:                                             <option>Russia</option>\n  112                                              <option>Belarus</option>\n  113                                              <option>Ukraine</option>\n\nC:\\xampp\\htdocs\\ecommerce\\customer\\edit_account.php:\n   51                              <select name=\"c_country\" disabled>\n   52                                  <option><?php echo $country; ?></option>\n   53:                                 <option>Russia</option>\n   54                                  <option>Belarus</option>\n   55                                  <option>Ukraine</option>\n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 896,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "customer/edit_account.php",
+			"settings":
+			{
+				"buffer_size": 4842,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "customer_register.php",
+			"settings":
+			{
+				"buffer_size": 9240,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AutoItScript/AutoIt.sublime-build",
+					""
+				],
+				[
+					"Packages/AutoItScript/AutoIt.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/AutoItScript/AutoIt.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/ecommerce"
+	],
+	"file_history":
+	[
+		"/C/Users/User/Box/BoxSyncFiles/Another/Learning/VKR/ecommerce.lnk",
+		"/D/Programming/AutoIt/AndroidStudio/@AndroidStudio_Autoit.au3",
+		"/D/@Projects_Dzen/AutoIt/text.sql",
+		"/C/Users/User/Documents/1.txt",
+		"/D/@Projects_Dzen/AutoIt/h_Dictionaries.au3",
+		"/D/@Projects_Dzen/AutoIt/h_VariablesAndInclude.au3",
+		"/D/@Projects_Dzen/AutoIt/h_VLC.au3",
+		"/D/@Projects_Dzen/AutoIt/h_LatvianAlphabet.au3",
+		"/D/@Projects_Dzen/AutoIt/LastProgram.au3",
+		"/C/Users/User/Documents/importAnki6.txt",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/LastProgram.exe",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/test.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Wolfram Mathematica/AutoIt/@AllFastFunWolfram.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/h_Wolfram.au3",
+		"/E/Projects/Windows/h_avVariablesAndIncludes.au3",
+		"/D/Old_AutoIt/Wolfram/@AllFastFunWolfram.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_StopAndPlayText.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/test_Tildes.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/FilesForApps/h_dataBase.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/ChoseVoiceAndPlayClipB.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/temp.nb",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_Images.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_BodyVoices.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/click_select.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/test.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/main.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_Sites.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/AutoIt/LastProgram.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_Tildes.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/@WorkWithText.au3",
+		"/C/Program Files (x86)/AutoIt3/Include/TTS.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/regex_tides_birojs",
+		"/C/Program Files (x86)/AutoIt3/Include/_My_Add++.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_LaunchAndExit.au3",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/AutoIt/h_VarAndInclude.au3",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/AutoItScript/AutoIt.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/AutoIt.sublime-settings",
+		"/C/Users/User/Documents/@Projects_Dzen/Latvija/Books/Language/@Dictionary/PDF_FindReader/New folder/ābece 1. ABC-book, primer; 2. pārn. the very begin.txt",
+		"/C/Users/User/Desktop/1.txt"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Russia",
+			"    ",
+			"",
+			"-",
+			"\\n\\n",
+			", ",
+			"\\n",
+			"(?<=\\d \t)\\w*_\\w*",
+			"\\d \t\\w*_\\w*",
+			"\\w*_\\w*",
+			"\\n",
+			";",
+			"\n- ",
+			"\\. .+",
+			";",
+			"•\t",
+			";",
+			".\t",
+			"\\.\t(.+)",
+			"GC_WinVLC",
+			"\\v",
+			"(?<=@\\+id/)[^\"]+",
+			"fnPushForse",
+			"Sublime Text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" - ",
+			"-",
+			"\\n",
+			", \\n",
+			", ",
+			"",
+			", ",
+			"",
+			"GC_WINVLC",
+			", "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 896,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										307,
+										313
+									],
+									[
+										726,
+										732
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								732,
+								732
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "customer/edit_account.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2082,
+								2082
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 477.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "customer_register.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4977,
+								4977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 173.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/AutoItScript/AutoIt.sublime-build",
+	"project": "ecom.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

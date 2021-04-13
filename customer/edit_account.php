@@ -50,7 +50,6 @@ $image = $row_customer['customer_image'];
                         <td>
                             <select name="c_country" disabled>
                                 <option><?php echo $country; ?></option>
-                                <option>Russia</option>
                                 <option>Belarus</option>
                                 <option>Ukraine</option>
                                 <option>India</option>
