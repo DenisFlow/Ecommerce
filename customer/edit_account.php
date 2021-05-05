@@ -12,7 +12,6 @@ $row_customer = mysqli_fetch_array($run_customer);
 $c_id = $row_customer['customer_id'];
 $name = $row_customer['customer_name'];
 $email = $row_customer['customer_email'];
-$pass = $row_customer['customer_pass'];
 $country = $row_customer['customer_country'];
 $city = $row_customer['customer_city'];
 $contact = $row_customer['customer_contact'];
@@ -35,10 +34,6 @@ $image = $row_customer['customer_image'];
                     <tr>
                         <td align="right">Customer Email:</td>
                         <td><input type="text" name="c_email" value="<?php echo $email ?>" required/></td>
-                    </tr>
-                    <tr>
-                        <td align="right">Customer Password:</td>
-                        <td><input type="password" name="c_pass" value="<?php echo $pass ?>" required/></td>
                     </tr>
                     <tr>
                         <td align="right">Customer Image:</td>
@@ -91,7 +86,6 @@ if (isset($_POST['update'])) {
     $c_id = $c_id;
     $c_name = $_POST['c_name'];
     $c_email = $_POST['c_email'];
-    $c_pass = $_POST['c_pass'];
 
     $c_image = $_FILES['c_image']['name'];
     $c_image_tmp = $_FILES['c_image'];['tmp_name'];
@@ -110,7 +104,7 @@ if (isset($_POST['update'])) {
     }
 
     $update_c = "update customers set 
-        customer_name = '$c_name', customer_email = '$c_email', customer_pass = '$c_pass', customer_country = '$c_country', 
+        customer_name = '$c_name', customer_email = '$c_email', customer_country = '$c_country', 
         customer_city  = '$c_city', customer_contact = '$c_contact', customer_address = '$c_address', customer_image = '$c_image'
         where customer_id = $c_id";
 

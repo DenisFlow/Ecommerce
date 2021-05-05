@@ -152,6 +152,15 @@
 	"buffers":
 	[
 		{
+			"contents": "1.2. Требования к содержанию выпускной работы бакалавра \nВыпускная работа должна содержать: \n•\tтитульный лист (форма приведена в приложении А); \n•\tзадание на проектирование (форма приведена в приложении Б); \n•\tаннотацию; \n•\tсодержание; \n•\tперечень условных обозначений, терминов и сокращений (при необхо-димости)\n•\tвведение; \n•\tанализ предметной области; \n•\tанализ и выбор проектных решений; \n•\tпроектная часть;\n•\tоценка эффективности проекта;\n•\tзаключение; \n•\tсписок литературы; \n•\tприложения;\n•\tлист самоаттестации студента (форма приведена в приложении В). \n\n\n1.2.10. Графическая часть\n Графическая часть работы должна содержать иллюстративный мате-риал общим объемом не менее 3-х листов формата А1. \nНабор иллюстративных материалов зависит от темы дипломного про-екта и согласовывается с руководителем. В качестве иллюстративных мате-риалов могут быть:\n•\tОрганизационная структура предприятия.\n•\tФункциональная модель объекта автоматизации.\n•\tДеревья целей и проблем.\n•\tДиаграмма потоков данных или документов.\n•\tАрхитектура ИС (программная и сетевая архитектуры)\n•\tФункциональная модель объекта автоматизации.\n•\tДиаграмма потоков данных или документов.\n•\tДерево автоматизируемых функций.\n•\tСтруктура диалога.\n•\tДерево программных моделей.\n•\tСхема взаимосвязи программных модулей и информационных фай-лов.\n•\tПроект компьютерной сети.\n•\tГрафическая иллюстрация показателей экономической эффективно-сти от внедрения проекта.\n\nДопускается оформление графического материала в электронном виде с представлением рисунков, схем и чертежей в основных графических фор-матах  с разрешением не ниже 300 dpi.\n\nПорядок листов пояснительной записки следующий: первой страницей явля-ется титульный лист (см. приложение А), второй и третьей – задание на вы-пускную работу (форма в приложении Б), четвертой – аннотация на двух языках, пятой – оглавление. На страницах 1–4 номера страниц не простав-ляются. ",
+			"settings":
+			{
+				"buffer_size": 1893,
+				"line_ending": "Windows",
+				"name": "1.2. Требования к содержанию выпускной работы бака"
+			}
+		},
+		{
 			"contents": "",
 			"settings":
 			{
@@ -160,30 +169,28 @@
 			}
 		},
 		{
-			"contents": "Searching 55 files for \"Russia\" (regex)\n\nC:\\xampp\\htdocs\\ecommerce\\customer_register.php:\n  109                                          <select name=\"c_country\">\n  110                                              <option>Select a Country</option>\n  111:                                             <option>Russia</option>\n  112                                              <option>Belarus</option>\n  113                                              <option>Ukraine</option>\n\nC:\\xampp\\htdocs\\ecommerce\\customer\\edit_account.php:\n   51                              <select name=\"c_country\" disabled>\n   52                                  <option><?php echo $country; ?></option>\n   53:                                 <option>Russia</option>\n   54                                  <option>Belarus</option>\n   55                                  <option>Ukraine</option>\n\n2 matches across 2 files\n",
+			"contents": "Denis Davidenko\ndenhelloworld@gmail.com\n\n\nДенис Давыденко\ndenisdangerzone@gmail.com\n\ndsf345FDS345sfDGgd",
 			"settings":
 			{
-				"buffer_size": 896,
+				"buffer_size": 103,
 				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
+				"name": "Denis Davidenko"
 			}
 		},
 		{
-			"file": "customer/edit_account.php",
+			"contents": "5\n5\n5\n5",
 			"settings":
 			{
-				"buffer_size": 4842,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 7,
+				"line_ending": "Windows",
+				"name": "5"
 			}
 		},
 		{
-			"file": "customer_register.php",
+			"file": "customer_login.php",
 			"settings":
 			{
-				"buffer_size": 9240,
-				"encoding": "UTF-8",
+				"buffer_size": 2391,
 				"line_ending": "Windows"
 			}
 		}
@@ -252,6 +259,9 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/ecommerce/cart.php",
+		"/C/xampp/htdocs/ecommerce/customer_register.php",
+		"/C/xampp/htdocs/ecommerce/customer/edit_account.php",
 		"/C/Users/User/Box/BoxSyncFiles/Another/Learning/VKR/ecommerce.lnk",
 		"/D/Programming/AutoIt/AndroidStudio/@AndroidStudio_Autoit.au3",
 		"/D/@Projects_Dzen/AutoIt/text.sql",
@@ -309,6 +319,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<li><a href=\"logout.php\">Logout</a> </li>",
+			"<b>You can see your orders' progress by clicking this",
+			"<h2 style=\"padding: 20px; color: black\">Welcome: <?php echo $c_name; ?> </h2><br>",
+			"    echo \"<a href='checkout.php' style='color: orange;'>Login</a>\";",
+			"updateCart()",
+			"Создам ссылку на корзину и сопутствующую информацию по корзине",
+			"    <?php cart(); ?>",
 			"Russia",
 			"    ",
 			"",
@@ -337,7 +354,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			" - ",
@@ -360,11 +377,39 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1893,
+								1893
+							]
+						],
+						"settings":
+						{
+							"auto_name": "1.2. Требования к содержанию выпускной работы бака",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
@@ -382,59 +427,63 @@
 						"settings":
 						{
 							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 896,
+						"buffer_size": 103,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										307,
-										313
-									],
-									[
-										726,
-										732
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								732,
-								732
+								84,
+								58
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"auto_name": "Denis Davidenko",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "5",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -444,20 +493,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "customer/edit_account.php",
+					"buffer": 4,
+					"file": "customer_login.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4842,
+						"buffer_size": 2391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2082,
-								2082
+								0,
+								0
 							]
 						],
 						"settings":
@@ -467,40 +516,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 477.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "customer_register.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9240,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4977,
-								4977
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1362.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -587,7 +606,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 193.0,
+	"side_bar_width": 191.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
