@@ -161,6 +161,44 @@ ecommerce/
 
 ---
 
+## 📸 Скриншоты
+
+### 🔐 Авторизация и регистрация пользователя
+
+<img width="1538" height="865" alt="Страница авторизации" src="https://github.com/user-attachments/assets/bfbbac8a-8d3f-4b0c-a48d-3e048ca73c30" />
+<img width="1538" height="865" alt="Форма регистрации" src="https://github.com/user-attachments/assets/7a56f42f-3260-4099-93f1-2cf87a9d8387" />
+<img width="1538" height="865" alt="Регистрация — шаг 2" src="https://github.com/user-attachments/assets/6689eb6a-e07f-459b-9124-6399d4e93b09" />
+<img width="1538" height="865" alt="Регистрация — шаг 3" src="https://github.com/user-attachments/assets/3f754143-8869-4456-8d10-328f963d6fdf" />
+<img width="1538" height="865" alt="Регистрация — шаг 4" src="https://github.com/user-attachments/assets/ddee34a9-739d-4efc-aa0e-832efa6dcc72" />
+
+---
+
+### 🛒 Добавление товара в корзину и оплата
+
+<img width="1538" height="865" alt="Корзина пустая" src="https://github.com/user-attachments/assets/f5fb3c27-d5a0-4d7c-8e53-3a3e7225fa58" />
+<img width="1538" height="865" alt="Сверка суммы в корзине и PayPal" src="https://github.com/user-attachments/assets/995df769-156c-4a97-be68-1a75b5bc8517" />
+<img width="1538" height="865" alt="Оплата через PayPal" src="https://github.com/user-attachments/assets/82a94a5b-e27c-4c90-a8a3-04da71dc02fb" />
+
+---
+
+### 👤 Личный кабинет пользователя
+
+<img width="1538" height="865" alt="Приветствие пользователя" src="https://github.com/user-attachments/assets/82a94a5b-e27c-4c90-a8a3-04da71dc02fb" />
+<img width="1538" height="865" alt="Выход из аккаунта" src="https://github.com/user-attachments/assets/523ae799-5781-45f2-a69c-1ba153d6582d" />
+
+---
+
+### 🔧 Панель администратора
+
+<img width="1538" height="865" alt="Добавление нового товара" src="https://github.com/user-attachments/assets/3c2a13ee-704d-42aa-9781-c3e0341dd79f" />
+<img width="1538" height="865" alt="Добавление нового товара — форма" src="https://github.com/user-attachments/assets/ee0ae404-c508-4b3f-957d-8d30b92b953b" />
+<img width="1538" height="865" alt="Добавление новой категории" src="https://github.com/user-attachments/assets/e6eaedc8-f995-46a2-a7ee-50ebd4f0b542" />
+<img width="1538" height="865" alt="Добавление новой категории — шаг 2" src="https://github.com/user-attachments/assets/7f83eb98-dbdc-4e3a-847f-14ba1dd17bb2" />
+<img width="1538" height="865" alt="Просмотр всех брендов" src="https://github.com/user-attachments/assets/778bf6c5-4b88-430e-9721-f4aff0039d9b" />
+<img width="1538" height="865" alt="Ввод некорректного пароля" src="https://github.com/user-attachments/assets/a01b52ae-d90d-498d-8ad1-d6b51dd0f01c" />
+
+---
+
 ## 📌 Автор
 
 **Давыденко Денис Валерьевич**  
